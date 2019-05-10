@@ -1,0 +1,133 @@
+.carousel-showmanymoveone .carousel-control {
+    width: 4%;
+    background-image: none;
+}
+.carousel-showmanymoveone .carousel-control.left {
+    margin-left: 15px;
+}
+.carousel-showmanymoveone .carousel-control.right {
+    margin-right: 15px;
+}
+.carousel-showmanymoveone .cloneditem-1, .carousel-showmanymoveone .cloneditem-2, .carousel-showmanymoveone .cloneditem-3 {
+    display: none;
+}
+@media all and (min-width: 768px) {
+    .carousel-showmanymoveone .carousel-inner > .active.left, .carousel-showmanymoveone .carousel-inner > .prev {
+        left: -50%;
+   }
+    .carousel-showmanymoveone .carousel-inner > .active.right, .carousel-showmanymoveone .carousel-inner > .next {
+        left: 50%;
+   }
+    .carousel-showmanymoveone .carousel-inner > .left, .carousel-showmanymoveone .carousel-inner > .prev.right, .carousel-showmanymoveone .carousel-inner > .active {
+        left: 0;
+   }
+    .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+        display: block;
+   }
+}
+@media all and (min-width: 768px) and (transform-3d),all and (min-width: 768px) and (-webkit-transform-3d) {
+    .carousel-showmanymoveone .carousel-inner > .item.active.right, .carousel-showmanymoveone .carousel-inner > .item.next {
+        transform: translate3d(50%,0,0);
+        left: 0;
+   }
+    .carousel-showmanymoveone .carousel-inner > .item.active.left, .carousel-showmanymoveone .carousel-inner > .item.prev {
+        transform: translate3d(-50%,0,0);
+        left: 0;
+   }
+    .carousel-showmanymoveone .carousel-inner > .item.left, .carousel-showmanymoveone .carousel-inner > .item.prev.right, .carousel-showmanymoveone .carousel-inner > .item.active {
+        transform: translate3d(0,0,0);
+        left: 0;
+   }
+}
+@media all and (min-width: 992px) {
+    .carousel-showmanymoveone .carousel-inner > .active.left, .carousel-showmanymoveone .carousel-inner > .prev {
+        left: -25%;
+   }
+    .carousel-showmanymoveone .carousel-inner > .active.right, .carousel-showmanymoveone .carousel-inner > .next {
+        left: 25%;
+   }
+    .carousel-showmanymoveone .carousel-inner > .left, .carousel-showmanymoveone .carousel-inner > .prev.right, .carousel-showmanymoveone .carousel-inner > .active {
+        left: 0;
+   }
+    .carousel-showmanymoveone .carousel-inner .cloneditem-2, .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+        display: block;
+   }
+}
+@media all and (min-width: 992px) and (transform-3d),all and (min-width: 992px) and (-webkit-transform-3d) {
+    .carousel-showmanymoveone .carousel-inner > .item.active.right, .carousel-showmanymoveone .carousel-inner > .item.next {
+        transform: translate3d(25%,0,0);
+        left: 0;
+   }
+    .carousel-showmanymoveone .carousel-inner > .item.active.left, .carousel-showmanymoveone .carousel-inner > .item.prev {
+        transform: translate3d(-25%,0,0);
+        left: 0;
+   }
+    .carousel-showmanymoveone .carousel-inner > .item.left, .carousel-showmanymoveone .carousel-inner > .item.prev.right, .carousel-showmanymoveone .carousel-inner > .item.active {
+        transform: translate3d(0,0,0);
+        left: 0;
+   }
+}
+
+figure img{
+    width: 350px;
+}
+figure p{
+    color: #2E394E;
+}
+.card p{
+    color: black;
+}
+
+.tab-content > .tab-pane {
+    display: block;
+    visibility: hidden;
+  }
+  .tab-content > .tab-pane.active {
+    visibility: visible;
+  }
+  .tab-content {
+    position: relative;
+  }
+  .tab-pane {
+    position: absolute;
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+  }
+ .slick-slider{
+     background: #777777 ;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     margin-right: 10px;
+ }
+ 
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    margin-left: 10px!important;
+    min-height: 1px;
+}
+  .slick-slider p {
+      padding: 12px;
+    background: white;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    color: black;
+  }
+  .slick-slider .slick-dots button:before, .slick-slider .slick-dots .slick-active button:before {
+    color: rgba(255, 255, 255, .85);
+  }
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

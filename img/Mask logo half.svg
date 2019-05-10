@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1686" data-name="Rectangle 1686" width="1920" height="1080" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#003cdb"/>
+      <stop offset="1" stop-color="#001e6e"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_logo_half" data-name="Mask logo half" clip-path="url(#clip-path)">
+    <path id="Path_62" data-name="Path 62" d="M-6.685,270.5C212.375-198.483,224.25-237.222,488.072-245.433S838.333-96.679,838.333-96.679l.056,555.322s2.172,363.739,0,364.614c-61.257-2.989-592.611-.644-592.611-.644s-1038.581,1.592-1327.8,0l-1.7-121.073C-839.633,645.97-170.76,621.772-6.685,270.5Z" transform="translate(1082 257)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
