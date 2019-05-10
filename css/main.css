@@ -388,7 +388,9 @@ margin-top: 10px;
 .card-pricing{
     margin-top: 100px;
 }
-
+.card{
+    height: 450px;
+}
 .card button {
     margin-top: 20px;
 }
