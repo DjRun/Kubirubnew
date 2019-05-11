@@ -67,9 +67,9 @@
         left: 0;
    }
 }
-
-figure img{
-    width: 350px;
+figure img {
+    width: 342px;
+    margin-left: -10px;
 }
 figure p{
     color: #2E394E;
@@ -96,7 +96,7 @@ figure p{
     left: 0;
   }
  .slick-slider{
-     background: #777777 ;
+     background: none ;
      margin-top: 50px;
      margin-bottom: 50px;
      margin-right: 10px;
@@ -130,4 +130,12 @@ figure p{
     color: black!important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.carousel-showmanymoveone .carousel-control.right {
+    margin-right: -40px;
+}
+.carousel-showmanymoveone .carousel-control.left {
+    margin-left: -40px;
 }

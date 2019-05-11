@@ -36,6 +36,7 @@ body, html {
 }
   .navbar-brand img{
       width: 200px;
+      margin-top: -10px;
   }
   .navbar{
     padding-top: 35px;
@@ -53,6 +54,10 @@ body, html {
 .container-fluid{
     padding-left: 79px;
     padding-right: 79px;
+}
+.lang{
+    margin-top: 4px;
+    margin-left: 15px;
 }
 .lang-switcher:before, .lang-switcher:after {
     color:white;
@@ -123,7 +128,7 @@ form .new {
     font-family: "Rubik Medium";
     background: rgb(0,60,219);
     font-weight: bold;
-    ackground: linear-gradient(90deg, rgba(0,60,219,1) , rgba(0,30,110,1) );
+    background: linear-gradient(90deg, rgba(0,60,219,1) , rgba(0,30,110,1) );
     color: white;
     padding: 12px 30px 12px 29px;
 }
@@ -135,6 +140,10 @@ form .new {
     font-weight: 600;
     color: #1598E5;
     margin-left: 50px;
+    padding-left: 46px;
+    margin-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .btn-outline-white:hover{
     color: #1598E5!important;
@@ -146,7 +155,7 @@ span.icon-play {
     height: 30px;
     border: solid 2px #1598E5;
     border-radius: 100px;
-    top: 260px;
+    top: 328px;
     left: 210px;
 }
 span.icon-play:before {
@@ -176,6 +185,7 @@ span.icon-play:hover {
 h6{
     font-family: "Proxima Nova";
     font-size: 21px;
+    margin-bottom: 80px;
 }
 .partners{
     height: 20%;
@@ -239,7 +249,10 @@ h6{
 .comp{
     margin-bottom: 30px;
 }
-
+.modal-content{
+    width: 1300px;
+    margin-left: -355px;
+}
 .modal-dialog {
     max-width: 800px;
     margin: 30px auto;
@@ -263,8 +276,8 @@ opacity:1;
 }
 h5{
     margin-top: 15px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 210px;
+    padding-right: 210px;
     color: #1598E5;
     font-weight: bold;
 }
@@ -299,42 +312,7 @@ font-size: 17px;
 margin-top: 10px;
 }
 
-.best{
-    color: #00498D;
-    font-weight: bold;
-}
 
-.card-pricing .list-unstyled li {
-    padding: .5rem 0;
-    color: #6c757d;
-}
-.text p{
-    font-size: 12px;
-   
-}
-.condition p{
-    margin-bottom: 3px;
-    color: #00498D;
-}
-
-.startup h2, .star p{
-    color: white;
-}
-.condstar .best, p{
-    color: white
-}
-
-.btn-outline-secondary{
-   font-weight: bold;
-    background-color: #002648;
-    color: white;
-   
-}
-.btn-outline-secondary:hover {
-    color: #002648;
-    background-color: white;
-   
-}
 .card.card-pricing:hover{
     margin: 5px;
     transition: 0.8s;
@@ -348,9 +326,7 @@ margin-top: 10px;
     width: 100%;
     margin-top: 10px;
 }
-.btn-outline-secondary{
-    padding: 5px 80px 5px 80px;
-}
+
 .btn.rounded.next {
     background-color: #0084FF;
     color: white;
@@ -373,30 +349,41 @@ margin-top: 10px;
     width: 645px;
     margin-left: 440px;
 }
-.card-deck .card {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-right: 6px;
-    margin-bottom: 0;
-    margin-left: 6px;
-}
-
-.card-pricing{
-    margin-top: 100px;
-}
 .tarif{
-    height: 450px;
+    border-radius: 6px;
+}
+.tarif h1{
+    font-family: "Rubik Medium";
+    font-weight: 600;
+}
+.first p {
+    font-family: "Rubik Bold";
+}
+.second p{
+    font-family: "Rubik Medium";
+    font-weight: 600;
+}
+.price{
+    font-family: "Rubik Bold";
+    
+}
+.tarif .btn {
+    background: #003CDB;
+    color: white;
+    font-family: "Rubik Medium";
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .card button {
     margin-top: 20px;
+    
 }
 .card h1{
     margin-top: -45px;
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 60px;
     color: white;
 }
@@ -411,6 +398,20 @@ margin-top: 10px;
 .second{
     margin-bottom: 60px;
     font-size: 15px;
+}
+.startup{
+    color: #1598E5!important;
+
+}
+.startuptarif{
+    background:#1598E5;
+}
+.startuptarif p{ 
+    color: white;
+}
+.startuptarif .btn{
+    background: white;
+    color: #003CDB;
 }
 .price{
     font-size: 30px;
@@ -595,90 +596,30 @@ margin-top: 10px;
         .copyright img{
             margin-right: 10px;
         }
-@media(min-width:1920px){
-    .startups {
-        color: white;
-        margin-top: 20px;
-    }
-  
-    .btn-outline-secondary {
-        padding: 5px 110px 5px 110px;
-    }
-   
-    .buttons {
-        width: 645px;
-        margin-left: 645px;
-    }
-}
 
-@media (max-width:1440px){
-    .btn-outline-secondary {
-        padding: 5px 65px 5px 65px;
-    }
-    
-    .text {
-        width: 265px;
-        margin-left: -30px;
-    }
-    .card-deck .card {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin-right: 4px;
-        margin-bottom: 0;
-        margin-left: 4px;
-    }
-    .container-fluid {
-        width: 100%;
-        padding-right: 20px;
-        padding-left: 20px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .buttons {
-        width: 645px;
-        margin-left: 400px;
-    }
-}
-@media(max-width:1360px){
-   
-    .text {
-        width: 250px;
-        margin-left: -30px;
-    }
-    .buttons {
-        width: 645px;
-        margin-left: 365px;
-    }
-}
-@media (max-width:1280px){
-    .card-deck .card {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin-right: 2px;
-        margin-bottom: 0;
-        margin-left: 3px;
-    }
-    
-  
-    .text {
-        width: 230px;
-        margin-left: -30px;
-    }
-    .buttons {
-        width: 645px;
-        margin-left: 320px;
-    }
-    }
-   
+
 @media(min-width:1920px){
+    figure img {
+        width: 445px;
+        margin-left: -10px;
+    }
+    .modal-content {
+        width: 1600px;
+        margin-left: -495px;
+        margin-top: 85px;
+    }
+    .modal-body button{
+        font-size: 90px;
+        /* margin-left: 62px; */
+        margin-right: -35px;
+        margin-top: -45px;
+    }
+    .navbar-nav li {
+        font-size: 19px;
+    }
+    .count{
+        height: 20%;
+    }
     .text-md-left{
         padding-top: 150px;
         color: #003CDB;
@@ -688,16 +629,77 @@ margin-top: 10px;
         padding-right: 150px;
     }
     span.icon-play {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        border: solid 2px #1598E5;
-        border-radius: 100px;
-        top: 455px;
-        left: 275px;
+        top: 485px;
+        left: 285px;
     }
-    .form-inline{
-        margin-right: 95px;
+    form .profile {
+        margin-right: 7px;
+        background: white;
+        padding: 12px 30px 12px 29px;
+        color: #203A7F;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "Rubik Medium";
+        margin-left: 428px;
+    }
+    form .new {
+        font-size: 16px;
+        background: #003CDB;
+        padding: 12px 30px 12px 29px;
+        color: white;
+        border-radius: 10px;
+        border: solid 1.2px white;
+        font-weight: bold;
+        font-family: "Rubik Medium";
+    }
+    .choose img {
+        width: 215px;
+    }
+    .phone img {
+        width: 145px;
+    }
+    .card h1 {
+        margin-top: -58px;
+        font-size: 30px;
+        margin-bottom: 69px;
+        color: white;
+    }
+    .first {
+        font-size: 25px;
+    }
+    .price {
+        font-size: 40px;
+    }
+    .tarif .btn {
+        font-size: 23px;
+        margin-bottom: 45px;
+    }
+    .slick-prev:before, .slick-next:before {
+        font-family: 'slick';
+        font-size: 50px;
+    }
+    .slick-prev {
+        left: -55px;
+    }
+    .tarif {
+        border-radius: 7px;
+        margin-top: 95px;
+    }
+    .second p {
+        font-size: 20px;
+    }
+    h5 {
+        margin-top: 15px;
+        padding-left: 250px;
+        padding-right: 250px;
+        font-size: 20px;
+    }
+    .choose p {
+        padding-left: 200px;
+        padding-right: 200px;
+        color: #1598E5;
+        font-size: 18px;
     }
     .btn-white{
         font-size: 25px;
@@ -707,5 +709,95 @@ margin-top: 10px;
     }
     h6{
         font-size: 33px;
+    }
+}
+@media(max-width:1500px){
+    .count{
+        height: 23%;
+    }
+    form .profile {
+        margin-right: 5px;
+        background: white;
+        padding: 12px 30px 12px 29px;
+        color: #203A7F;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: "Rubik Medium";
+        margin-left: 185px;
+    }
+    .tarif {
+        border-radius: 6px;
+        margin-top: 70px;
+    }
+    .news {
+        background-image: url(backgrounds/newsbackground.png);
+        height: 46%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .footimg {
+        width: 249px;
+        margin-top: -25px;
+    }
+}
+@media(max-width:1360px){
+    form .profile {
+        margin-right: 1px;
+        background: white;
+        padding: 12px 30px 12px 29px;
+        color: #203A7F;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: "Rubik Medium";
+        margin-left: 109px;
+    }
+    .navbar-nav {
+        margin-left: 40px;
+    }
+    .navbar-brand{
+        margin-top: -35px;
+    }
+    .second {
+        margin-bottom: 34px;
+        font-size: 15px;
+    }
+    .price{
+        margin-bottom: -7px;
+    }
+    .card h1 {
+        margin-top: -40px;
+    }
+    .slick-slider p{
+        font-size: 9px;
+    }    
+    .copyright {
+        margin-left: 45px;
+    }
+    .foot p {
+        margin-left: 30px;
+    }
+    .foot .fa {
+        font-size: 25px;
+    }
+    figure img {
+        width: 285px;
+        margin-left: -10px;
+    }
+    h5 {
+        margin-top: 15px;
+        padding-left: 130px;
+        padding-right: 130px;
+    }    
+    .choose p {
+        padding-left: 95px;
+        padding-right: 95px;
+        color: #1598E5;
+    }
+    .count .statistic{
+        font-size: 55px;
     }
 }
