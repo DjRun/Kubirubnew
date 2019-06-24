@@ -1,0 +1,30 @@
+.about {
+    background-image: url("backgrounds/about.png");
+    height: 100% ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ .game{
+     margin-top: -70px;
+     margin-left: 30px;
+ }
+  .game img{
+      width: 350px;
+  }
+  .abouttext{
+    padding-left: 100px;
+    font-size: 20px;
+    padding-right: 100px;
+  }
+  .navbar-brand img {
+    width: 200px;
+    margin-top: -30px;
+}
+hr{
+  width: 97%; 
+ color: black; 
+ height: 0.5px;
+ background-color:black;
+}

@@ -25,3 +25,24 @@
       }
     });
   }());
+
+
+  
+$(".Ru").click(function() {
+  window.location = "http://google.com";
+});
+$(".En").click(function() {
+  window.location = "http://facebook.com";
+});
+  $('.center-mode .slider').slick({
+slidesToShow: 11,
+slidesToScroll: 1,
+autoplay: true,
+autoplaySpeed: 1000,
+});
+$('.center-mode .sliders').slick({
+slidesToShow: 4,
+slidesToScroll: 1,
+autoplay: true,
+autoplaySpeed: 4000,
+});
