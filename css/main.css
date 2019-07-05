@@ -768,16 +768,8 @@ margin-top: 10px;
   .showpanel{
     margin-left:70px;
   }
-  .wintext h1, h4 {
-    font-size: 70px;
-   
-}
-.store img {
-    width: 190px;
-}
-.wintext{
-    padding-top: 120px;
-}
+ 
+
 @media(min-width:1920px){
     
     .mainwrap {
