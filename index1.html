@@ -66,10 +66,7 @@
                               <circle class="lang-switcher__svg-item js-moving" cx="50" cy="50" r="45" />
                             </g>
                           </svg>
-                       
-                   
                       </div>
-                   
                       </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -181,7 +178,6 @@
        <div class="row crd">
          <div class="col">
            <div class="card tarif">
-
              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345 84.52">
              <defs>
                <style>.cls-1{filter:url(#a);}.cls-2{fill:#1598e5;}</style>
@@ -192,7 +188,6 @@
               </defs>
               <title>Path 1865</title><g class="cls-1">
               <path class="cls-2" d="M-580-340h345v82s-79.84-15.48-167.57-3.88S-580-258-580-258Z" transform="translate(580 340)"/></g></svg>
-               
                 <h1>Standart</h1>
                 <p class="first">1 month contract</p>
                 <div class="second">
@@ -397,11 +392,8 @@
         <div class="container-fluid">
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="basic">
-                
-                <div class="test-case-wrap center-mode">
-                  
+                <div class="test-case-wrap center-mode">    
                   <div class="slider">
-                   
                     <p>kubirub</p>
                     <p>mobile game</p>
                     <p>discounts</p>
@@ -486,7 +478,6 @@
       </div>
       </div>
     </section>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
@@ -500,34 +491,18 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://rawgit.com/kenwheeler/slick/master/slick/slick.js"></script>
-
-
     <script src="js/main.js"></script>
     <script>
      $(document).ready(function() {
-
-// Gets the video src from the data-src on each button
-
 var $videoSrc;  
 $('.video-btn').click(function() {
     $videoSrc = $(this).data( "src" );
 });
 console.log($videoSrc);
-
-  
-  
-// when the modal is opened autoplay it  
 $('#myModal').on('shown.bs.modal', function (e) {
-    
-// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
 $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
 })
-  
-
-
-// stop playing the youtube video when I close the modal
 $('#myModal').on('hide.bs.modal', function (e) {
-    // a poor man's stop video
     $("#video").attr('src',$videoSrc); 
 }) 
     

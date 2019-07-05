@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+</head>
+
+<body>
+    <section class="cardback">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="img/logokubirub.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Scores</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Updates</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        About
+                      </a>
+                      
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">How to</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="lang" style="margin-top:75px;">    
+                        <div class="lang-switcher Ru" style="margin-top:-70px;" data-lang-1="Ru"></div>
+                          <div class="lang-switcher En"  data-lang-2="En">
+                          <svg class="lang-switcher__svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 200">
+                            <defs>
+                              <filter id="goo-effect" width="110%" height="215%">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo-effect" />
+                                <feBlend in="SourceGraphic" in2="goo-effect" />
+                              </filter>
+                            </defs>
+                            <g filter="url(#goo-effect)">
+                              <circle class="lang-switcher__svg-item" cx="50" cy="50" r="45" />
+                              <circle class="lang-switcher__svg-item js-moving" cx="50" cy="50" r="45" />
+                            </g>
+                          </svg>
+                       
+                   
+                      </div>
+                   
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn profile">Company Profile</button>
+                    <button type="button" class="btn new">New Company</button>
+                  </form>
+                </div>
+              </nav>
+        </div>
+        <section class="hello container-fluid">
+      
+
+    <ul class="payment-methods">
+        <li class="payment-method text">
+            
+            Choose the
+                payment method
+          </li>
+        <li class="payment-method paypal">
+          <input name="payment_methods" type="radio" id="paypal">
+          <label for="paypal">PayPal</label>
+        </li>
+      
+        <li class="payment-method master">
+          <input name="payment_methods" type="radio" id="master">
+          <label for="master">Master</label>
+        </li>
+      
+        <li class="payment-method visa">
+          <input name="payment_methods" type="radio" id="visa">
+          <label for="visa">Visa</label>
+        </li>
+        <li class="payment-method america">
+            <input name="payment_methods" type="radio" id="AmericanExpress">
+            <label for="AmericanExpress">AmericanExpress</label>
+          </li>
+          <li class="payment-method applepay">
+              <input name="payment_methods" type="radio" id="applePay">
+              <label for="applePay">applePay</label>
+            </li>
+            <li class="payment-method bitcoin">
+                <input name="payment_methods" type="radio" id="BitCoin">
+                <label for="BitCoin">BitCoin</label>
+              </li>
+              <li class="payment-method maestro">
+                  <input name="payment_methods" type="radio" id="Maestro">
+                  <label for="Maestro">Maestro</label>
+                </li>
+                <li class="payment-method stripe">
+                    <input name="payment_methods" type="radio" id="Stripe">
+                    <label for="Stripe">Stripe</label>
+                  </li>
+      </ul>
+
+       
+</section>
+<section>
+  <div class="row container-fluid">
+        <div class="checkout col-5">
+                <form class="form" autocomplete="off" novalidate>
+                    <fieldset>
+                        <label for="card-holder">Card holder</label>
+                        <input type="text" id="card-holder" />
+                      </fieldset>
+                  <fieldset>
+                    <label for="card-number">Card Number</label>
+                    <input type="num" id="card-number" class="input-cart-number" maxlength="4" />
+                    <input type="num" id="card-number-1" class="input-cart-number" maxlength="4" />
+                    <input type="num" id="card-number-2" class="input-cart-number" maxlength="4" />
+                    <input type="num" id="card-number-3" class="input-cart-number" maxlength="4" />
+                  </fieldset>
+                  
+                  <fieldset class="fieldset-expiration">
+                    <label for="card-expiration-month">Expiration date</label>
+                    <div class="select">
+                      <select id="card-expiration-month">
+                        <option>MM</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                      </select>
+                    </div>
+                    <div class="select">
+                      <select id="card-expiration-year">
+                        <option>YYYY</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                      </select>
+                    </div>
+                  </fieldset>
+                  <fieldset class="fieldset-ccv">
+                    <label for="card-ccv">CCV</label>
+                    <input type="text" id="card-ccv" maxlength="3" />
+                  </fieldset>
+                  <button class="btn">submit</button>
+                </form>
+                </div>
+
+                <div class="credit-card-box  col">
+                 
+                    <div class="flip">
+                      <div class="front">
+                          <img class="cardsvg" src="img/card.svg" alt="">
+                        <div class="chip"></div>
+                        <div class="logo">
+                     
+                        </div>
+                        <div class="number"></div>
+                        <div class="card-holder">
+                        
+                          <div></div>
+                        </div>
+                        <div class="card-expiration-date">
+                        
+                          <div></div>
+                        </div>
+                      </div>
+                      <div class="back">
+                          <img class="cardsvg" src="img/card.svg" alt="">
+                        <div class="strip"></div>
+                        <div class="logo">
+                          
+                
+                        </div>
+                        <div class="ccv">
+                          <label>CCV</label>
+                          <div></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+             </section>
+              </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="js/card.js">
+
+</script>
+</html>

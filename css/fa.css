@@ -1,0 +1,39 @@
+ .social {
+     padding: 20px ;
+ font-size: 15px;
+ width: 25px;
+ text-align: center;
+ text-decoration: none;
+ margin: 5px 2px;
+ border-radius: 50%;
+}
+.command{
+    background-image: url("backgrounds/about.png");
+    height: auto;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.social:hover {
+ opacity: 0.7;
+}
+
+.links .fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.links .fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+
+.links .fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.links .fa-facebook {
+     padding-right: 0px!important; 
+    padding-left: 0px!important; 
+}

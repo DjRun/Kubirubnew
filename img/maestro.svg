@@ -1,0 +1,11 @@
+<svg id="Icon_color_Maestro" data-name="Icon/color/Maestro" xmlns="http://www.w3.org/2000/svg" width="129.421" height="90.202" viewBox="0 0 129.421 90.202">
+  <g id="Maestro">
+    <rect id="Rectangle_Copy_17" data-name="Rectangle Copy 17" width="129.421" height="90.202" rx="3" fill="#262626"/>
+    <g id="_Group__Copy" data-name="_Group_ Copy" transform="translate(26.14 22.222)">
+      <rect id="Rectangle" width="20.939" height="38.016" transform="translate(28.24 5.177)" fill="#7673c0"/>
+      <path id="_Path_" d="M29.576,24.173a24.227,24.227,0,0,1,9.14-19A23.755,23.755,0,0,0,6.349,7.775a24.359,24.359,0,0,0,0,32.8,23.755,23.755,0,0,0,32.367,2.607,24.227,24.227,0,0,1-9.14-19.012Z" transform="translate(0 0.009)" fill="#eb001b"/>
+      <path id="Shape" d="M1.841,1.874V.466L1.581,1.675H1.4L1.144.466v1.4H.971V0h.245l.279,1.329L1.775,0h.238V1.862l-.171.012ZM.478,1.862H.312V.319H0V0H.791V.319H.478V1.862Z" transform="translate(74.671 38.224)" fill="#00a1df"/>
+      <path id="Path" d="M38.72,24.182A24.2,24.2,0,0,1,25.247,45.927,23.731,23.731,0,0,1,0,43.187,24.267,24.267,0,0,0,9.143,24.179,24.267,24.267,0,0,0,0,5.171,23.731,23.731,0,0,1,25.25,2.432,24.2,24.2,0,0,1,38.72,24.182Z" transform="translate(38.71 0)" fill="#00a1df"/>
+    </g>
+  </g>
+</svg>

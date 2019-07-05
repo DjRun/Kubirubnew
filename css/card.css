@@ -1,0 +1,405 @@
+  @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,700');
+
+
+
+  
+.row{
+  margin-top: -280px;
+  padding: 90px;
+}
+.btn {
+  display: block;
+  background: #bded7d;
+  color: white;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 15px 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+.form fieldset {
+  border: none;
+  padding: 0;
+  padding: 10px 0;
+  position: relative;
+  clear: both;
+}
+.form fieldset.fieldset-expiration {
+  float: left;
+  width: 60%;
+}
+.form fieldset.fieldset-expiration .select {
+  width: 84px;
+  margin-right: 12px;
+  float: left;
+}
+.form fieldset.fieldset-ccv {
+  clear: none;
+  float: right;
+  width: 86px;
+}
+.form fieldset label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}
+.form fieldset input,
+.form fieldset .select {
+  width: 100%;
+  height: 38px;
+  color: #888;
+  padding: 10px;
+  border-radius: 0;
+  font-size: 15px;
+  outline: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+}
+.form fieldset input.input-cart-number,
+.form fieldset .select.input-cart-number {
+  width: 82px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.form fieldset input.input-cart-number:last-child,
+.form fieldset .select.input-cart-number:last-child {
+  margin-right: 0;
+}
+.form fieldset .select {
+  position: relative;
+}
+.form fieldset .select::after {
+  content: '';
+  border-top: 8px solid #222;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  right: 10px;
+  pointer-events: none;
+}
+.form fieldset .select select {
+    margin-top: 3px;
+    color: #888;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+  padding: 0;
+  border: none;
+  width: 100%;
+  outline: none !important;
+  top: 6px;
+  left: 6px;
+  background: none;
+}
+.form fieldset .select select :-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+.form button {
+  width: 100%;
+  outline: none !important;
+  background:#499bea;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: none;
+  margin-top: 90px;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 2px;
+  -webkit-transition: background .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out;
+  -o-transition: background .2s ease-in-out;
+  transition: background .2s ease-in-out;
+}
+
+.form button:hover {
+  background:#3886d2;
+}
+
+.cardback {
+  background-image: url("backgrounds/cardback.svg");
+  height: 100% ;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.checkout {
+ margin-left: 90px;
+  position: relative;
+  width: 460px;
+  background: white;
+  border-radius: 8px;
+ 
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cardsvg {
+    width: 435px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.credit-card-box {
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    width: 400px;
+    height: 280px;
+    position: absolute;
+    margin-left: 901px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin-top: 35px;
+}
+.credit-card-box:hover .flip, .credit-card-box.hover .flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.credit-card-box .front,
+.credit-card-box .back {
+  width: 400px;
+  height: 225px;
+  border-radius: 15px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+background: url(../img/card.svg);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  font-family: 'Inconsolata', monospace;
+}
+
+.credit-card-box .flip {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+}
+.credit-card-box .logo {
+  position: absolute;
+  top: 150px;
+  right: 17px;
+  margin-top: 22px;
+}
+.visa {
+  background: url(http://svgshare.com/i/13Q.svg);
+  width: 60px;
+  height: 20px;
+  background-size: cover;
+}
+.master {
+  background: url(../img/masterlogo.svg);
+  width: 59px;
+  height: 50px;
+  background-size: cover;
+}
+.discover {
+  background: url(http://svgshare.com/i/13u.svg);
+  width: 110px;
+  height: 20px;
+  background-size: cover;
+}
+.amex {
+  background: url(http://svgshare.com/i/12J.svg);
+  width: 72px;
+  height: 20px;
+  background-size: cover;
+}
+.credit-card-box .front {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+.credit-card-box .back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.credit-card-box .chip {
+  position: absolute;
+  width: 51px;
+  height: 32px;
+  top: 85px;
+  left: 20px;
+  background: url(../img/chip.svg) no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.credit-card-box .strip {
+  background: -webkit-linear-gradient(315deg, #404040, #1a1a1a);
+  background: linear-gradient(135deg, #404040, #1a1a1a);
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 30px;
+  left: 0;
+}
+.credit-card-box .number {
+  position: absolute;
+  margin: 0 auto;
+  top: 123px;
+  left: 19px;
+  font-size: 23px;
+}
+.credit-card-box label {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-weight: normal;
+  opacity: 0.5;
+  display: block;
+  margin-bottom: 3px;
+}
+.credit-card-box .card-holder,
+.credit-card-box .card-expiration-date {
+  position: absolute;
+  margin: 0 auto;
+  top: 180px;
+  left: 19px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.credit-card-box .card-expiration-date {
+    text-align: right;
+    left: 0;
+    right: 340px;
+    font-size: 15px;
+    top: 156px;
+}
+.credit-card-box .ccv {
+  height: 36px;
+  background: #fff;
+  width: 91%;
+  border-radius: 5px;
+  top: 110px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 0 auto;
+  color: #000;
+  text-align: right;
+  padding: 10px;
+}
+.credit-card-box .ccv label {
+  margin: -25px 0 14px;
+  color: #fff;
+}
+.payment-methods {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.payment-method {
+ 
+  box-sizing: border-box;
+  float: left;
+  height: 70px;
+  position: relative;
+  width: 120px;
+}
+
+.payment-method + .payment-method {
+  margin-left: 25px;
+}
+
+
+.payment-method label {
+  background: #fff no-repeat center center;
+  bottom: -8px;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  left: 0px;
+  position: absolute;
+  right: 1px;
+  text-indent: 100%;
+  top: 1px;
+  white-space: nowrap;
+}
+.applepay label {
+  background-image: url(../img/apple.svg);
+  background-size: 90px;
+}
+.bitcoin label {
+  background-image: url(../img/bitcoin.svg);
+  background-size: 90px;
+}
+.maestro label {
+  background-image: url(../img/maestro.svg);
+  background-size: 90px;
+}
+.stripe label {
+  background-image: url(../img/stripe.svg);
+  background-size: 90px;
+}
+.visa label {
+  background-image: url(../img/visa.svg);
+  background-size: 90px;
+}
+.master label {
+  background-image: url(../img/master.svg);
+  background-size: 90px;
+}
+
+.paypal label {
+  background-image:url(../img/paypal.svg);
+  background-size: 90px;
+}
+
+
+.america label {
+  background-image: url(../img/american.svg);
+  background-size: 90px;
+}
+
+.payment-methods input:hover + label,
+.payment-methods input:focus + label{
+  outline: 2px solid #003CDB;
+}
+
+.payment-methods input:checked + label {
+  outline: 2px solid #003CDB;
+}
+
+
+.payment-methods input:checked + label:after {
+  background: url(https://lh3.google.com/u/0/d/0B4z-wUXuqP56SUtBYmExbkowelk=w2560-h1380-iv1);
+  background-size: cover;
+  background-color: #003CDB;
+  bottom: -1px;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  right: -1px;
+  width: 20px;
+}
+
+.hello{
+  margin-top: 90px;
+  background: white;
+  padding: 7px;
+  position: relative;
+  width: 1441px;
+  border-radius: 8px;
+  height: 88px;
+}
+.text{
+  width: 131px;
+    margin-left: -25px;
+    margin-top: 10px;
+}

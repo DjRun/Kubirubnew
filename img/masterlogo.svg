@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148.396" height="121.5" viewBox="0 0 148.396 121.5">
+  <g id="Group_2998" data-name="Group 2998" transform="translate(-1587.981 -813.5)">
+    <g id="mc_symbol" transform="translate(1587.981 813.5)">
+      <g id="Group" opacity="0">
+        <rect id="Rectangle" width="148.396" height="96.794" fill="#fff"/>
+      </g>
+      <rect id="Rectangle-2" data-name="Rectangle" width="39.146" height="63.055" transform="translate(54.631 16.864)" fill="#ff5f00"/>
+      <path id="Path" d="M50.254,40.094A39.833,39.833,0,0,1,65.783,8.572,41.069,41.069,0,0,0,10.788,12.9a39.693,39.693,0,0,0,0,54.408,41.069,41.069,0,0,0,54.995,4.323A39.833,39.833,0,0,1,50.254,40.094Z" transform="translate(8.409 8.303)" fill="#eb001b"/>
+      <path id="Shape" d="M2.113,3.167h0l-.322,0V0h.45l.52,2.258L3.281,0h.446V3.16l-.309,0V.768L2.932,2.824H2.6L2.113.768v2.4Zm-1.255,0H.584V.543H0V0H1.479V.543H.859v2.62Z" transform="translate(135.317 71.687)" fill="#f79e1b"/>
+      <path id="Path-2" data-name="Path" d="M65.789,40.109A40.053,40.053,0,0,1,42.9,76.176,41.125,41.125,0,0,1,0,71.631,39.9,39.9,0,0,0,15.536,40.1,39.9,39.9,0,0,0,0,8.576,41.125,41.125,0,0,1,42.9,4.032,40.053,40.053,0,0,1,65.789,40.1Z" transform="translate(74.192 8.288)" fill="#f79e1b"/>
+    </g>
+    <text id="mastercard" transform="translate(1662 930)" fill="#dbdbdb" font-size="21" font-family="Rubik-Medium, Rubik" font-weight="500" letter-spacing="-0.023em"><tspan x="-56.429" y="0">mastercard</tspan></text>
+  </g>
+</svg>
