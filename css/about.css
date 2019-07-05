@@ -24,12 +24,7 @@
     width: 200px;
     margin-top: -30px;
 }
-.tag{
-  height: auto;
-  width: 100% !important;
-  padding-left: 0px!important;
-  padding-right: 0px !important;
-}
+
 hr{
   width: 97%; 
  color: black; 
@@ -37,18 +32,39 @@ hr{
  background-color:black;
 }
 @media(min-width:1920px){
-  .game img{
-    width: 560px;
-  }
+ .abouttext{
+  font-size: 26px;
+  margin-top: 50px;
+ }
+ .game img {
+  width: 400px;
+  margin-left: -51px;
+}
  
 }
 @media(max-width:1440PX){
   .game img {
-    width: 395px;
+    width: 340px;
 }
 }
-@media(max-width:1240px){
+@media(max-width:1360px){
+  .second {
+    height: auto;
+    background: white;
+    margin-top: 100px;
+}
+}
+@media(max-width:1281px){
   .game img {
     width: 345px;
+}
+.navbar-brand img {
+  width: 200px;
+  margin-top: -10px;
+}
+.second {
+  height: auto;
+  background: white;
+  margin-top: 70px;
 }
 }
