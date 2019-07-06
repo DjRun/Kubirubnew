@@ -1,5 +1,6 @@
 
 
+
 // trigger set_sizes on page resize
 var resizeTimer;
 $(window).resize( function() {
@@ -7,9 +8,9 @@ clearTimeout( resizeTimer );
 resizeTimer = setTimeout( set_sizes, 15 );
 });
 console.log('Start');
-var container = $('#container'),
-    content = $('#content'),
-    scroll = $('#scrollbar'),
+var container = $('#container1'),
+    content = $('#content1'),
+    scroll = $('#scrollbar1'),
     doc = $(document);
 content.on('scroll', function(e) {
   scroll.stop(true).css({
@@ -35,6 +36,19 @@ scroll.on('mousedown', function(e){
     doc.off('mousemove');
   });
 });
+
+
+function scrolling(id){
+  let resizeTimer 
+  let container = $("#container"+id);
+  let scroll = $("#scrollbar"+id);
+  let content = $("#content"+id);
+}
+
+scrolling(1)
+scrolling(2)
+scrolling(3)
+
 
 
 $('#myTab a').on('click', function (e) {

@@ -21,6 +21,14 @@ body, html {
   h1{
     margin-top: 25px;
   }
+  .sign {
+    background-image: url("backgrounds/signback.png");
+    height: 100% ;
+    width: auto;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .bg {
     background-image: url("backgrounds/firstsection.png");
     height: 100% ;
@@ -37,7 +45,7 @@ body, html {
 }
   .navbar-brand img{
       width: 200px;
-      margin-top: -10px;
+      margin-top: -30px;
   }
   .navbar{
     padding-top: 35px;
@@ -768,10 +776,15 @@ margin-top: 10px;
   .showpanel{
     margin-left:70px;
   }
- 
+ .wintext{
+     padding-top: 50px;
+ }
 
 @media(min-width:1920px){
-    
+    .accrow img {
+        margin-left: 60px;
+        width: 650px;
+    }
     .mainwrap {
         width: 150rem!important;
     }

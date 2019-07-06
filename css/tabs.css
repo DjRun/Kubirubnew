@@ -1,5 +1,5 @@
 
-  #container {
+  #container1,#container2,#container3 {
     width: 970px;
     height: 350px;
     box-sizing:border-box;
@@ -10,7 +10,7 @@
     position: relative;
     overflow: hidden;
   }
-  #content {
+  #content1,#content2,#content3 {
     font-size: 23px;
     height:100%;
     width: 100%;
@@ -18,7 +18,7 @@
     padding-right: 30px;
   }
   
-  #scrollbar {
+  #scrollbar1,#scrollbar2,#scrollbar3 {
     position: absolute;
     right: 5px;
     height: 30px;
@@ -27,6 +27,7 @@
     margin-top:5px;
     background: #003CDB;
   }
+ 
   .down{
     margin-top: -100px;
   }
