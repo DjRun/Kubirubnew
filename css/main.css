@@ -13,6 +13,11 @@
 body, html {
     height: 100%;
     width: 100%;
+    font-family: "Rubik Medium";
+    font-weight: bold;
+  }
+  h1,h2,h3,h4,h5{
+      font-family: "Rubik Bold";
   }
   ::-webkit-scrollbar { 
     display: none; 
@@ -21,9 +26,17 @@ body, html {
   h1{
     margin-top: 25px;
   }
+  .companyreg{
+    background-image: url("backgrounds/companyregistr.png");
+    height: 145% ;
+    width: auto;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .sign {
     background-image: url("backgrounds/signback.png");
-    height: 100% ;
+    height: 200% ;
     width: auto;
     background-position: center ;
     background-repeat: no-repeat;
@@ -113,6 +126,9 @@ form .profile{
     font-weight: bold;
     font-family: "Rubik Medium";
     margin-left: 200px;
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 }
 form .new {
     font-size: 12px;
@@ -123,6 +139,9 @@ form .new {
     border: solid 1.2px white;
     font-weight: bold;
     font-family: "Rubik Medium";
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 }
 .text-md-left{
     padding-top: 60px;
@@ -302,6 +321,7 @@ h5{
 .phone img{
     width: 110px;
 }
+
 .tariffs{
     background-image: url("backgrounds/tariffs.png");
     height: 100%;
@@ -663,7 +683,9 @@ margin-top: 10px;
         font-size: 15px;
     }
     
-
+.bio{
+    color: #0B4C73;
+}
     .Hide {
         font-size: 15px;
         background: #0045B2;
@@ -729,12 +751,25 @@ margin-top: 10px;
    }
     .toggler {
         cursor: pointer;
-        margin-left: 1010px;
+        margin-left: 1000px;
    }
     .toggler span {
         display: inline-block;
    }
-    
+    .owners{
+        margin-top: -20px;
+        margin-bottom: 30px;
+
+    }
+    .contract{
+        color: white;
+    }
+    .col-7 .card{
+        padding: 20px;
+        -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+    }
       .user-card {
         height: 460px;
         width: 250px;
@@ -779,8 +814,390 @@ margin-top: 10px;
  .wintext{
      padding-top: 50px;
  }
+ .chooseplan{
+    background: white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    border-radius: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Rubik Medium";
 
+ }
+ .btns{
+     margin-top: 50px;
+ }
+
+ .regform{
+     margin-top: 30px;
+ }
+ .regform .card{
+     border-radius: 8px;
+ }
+ .regform h3{
+     color: white;
+ }
+ .reg input, .reg select {
+     font-weight: bold;
+     color: #001E6E;
+     height: 40px;
+     border-radius: 100px;
+     background: #CEDBFF;
+ }
+ .reg select{
+     color: #001E6E;
+     font-weight: bold;
+ }
+ .cancel{
+    border: solid 1.5px white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Rubik Medium";
+    background: #001E6E;
+    color: white;
+ }
+.add{
+    background: white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 190px;
+    margin-bottom: 30px;
+    border-radius: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Rubik Medium";
+}
+.reset{
+   border: solid 1.5px white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Rubik Medium";
+    background: #001E6E;
+    color: white;
+    
+}
+.signfooter{
+    margin-top: 250px;
+}
+.signfooter .text-center{
+    margin-left: 420px;
+  
+}
+.productby img{
+    width: 185px;
+    margin-left: 200px;
+}
+.support{
+    margin-left: 5px;
+}
+.signfooter{
+    margin-top: 250px;
+}
+.sign2{
+    margin-top: 150px;
+}
+.signfooter  p{
+    display: inline;
+  
+   color: white;
+    font-family: "Rubik Medium";
+    font-weight: 600;
+}
+.vertical{
+    border: none;
+    border-left: 2px solid white;
+    height: 7px;
+    width: 3px;
+    display: inline;
+}
+
+.signfoot{
+    color: white;
+    background-color: white;
+}
+.signin{
+    border: solid 1.5px white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Rubik Medium";
+    background: #1598E5;
+    margin-bottom: 30px;
+    color: white;  
+}
+.regform h2{
+    color: white;
+}
+
+.supportimg img{
+    width:570px;
+    margin-left: 20px;
+}
+.name{
+    margin-bottom: 10px;
+}
+
+.support label{
+    color: #003CDB;
+}
+.support input,.support select, .support textarea{
+    border: solid 1.5px #003CDB;
+    height: 40px;
+    border-radius: 8px;
+} .support{
+    margin-top: 50px;
+}
+.support textarea{
+    height: 150px   ;
+}
+.suptext{
+    margin-top: -10px;
+    margin-bottom: 80px;
+}
+.supsend{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.founders{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+
+.mainwrap{
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0,60,219,1);
+    -moz-box-shadow: 0px 0px 20px -6px rgba(0,60,219,1);
+    box-shadow: 0px 0px 20px -6px rgba(0,60,219,1);
+    margin-bottom: 30px;
+}
+.contactour button{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.founders{
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0,60,219,1);
+-moz-box-shadow: 0px 0px 20px -6px rgba(0,60,219,1);
+box-shadow: 0px 0px 20px -6px rgba(0,60,219,1);
+margin-bottom: 50px;
+}
+.uploadtext p{
+   width: 100px;
+   margin-left: -90px;
+   margin-top: 50px;
+}
+#background{
+    margin-left: -130px;
+}
+.registfoot{
+    margin-top: 100px;
+}
+.dropbox{
+    
+    border-radius: 100px;
+    border: 1px ;
+    width:100px;
+    height:100px;
+    margin:auto;
+    margin-top:20px;
+    transform-style: preserve-3d;
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
+  }
+  .icon-container{
+
+    width:100px;
+    height:100px;
+    background:url(camera.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    margin-left:50%;
+    margin-top:50%;
+    z-index:-90000000;
+  }
+  #probePreview{
+    height:inherit;
+    width:inherit;
+    z-index;90000;
+  }
+  img[src=""]{
+    display:none;
+  }
+ 
+  input[type=file]{
+    height:inherit;
+    width:100%;
+    position:absolute;
+    opacity:0;
+  }
+  .tilt-logo-inner {
+      transform: translateZ(50px) translateY(-50%) translateX(-50%);
+      position: absolute;
+  }
+  .accept{
+    background: white;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Rubik Medium";
+  }
+  .decline{
+   
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+  }
+
+  .check{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    border:5px solid white;
+    border-radius:50px;
+    position:relative;
+    box-sizing:border-box;
+    transition:all 0.2s
+  }
+  .check::before{
+    content:"I accept Privacy Policy & Terms-Conditions";
+    position:absolute;
+    top:10px;
+    display:block;
+    width:300px;
+    left:40px;
+    color:white;
+    font-weight:bold;
+    line-height:14px;
+    font-size:14px;
+    text-align:left
+  }
+  .checked .check::before{
+    content:"Accepted!";}
+  .check::after{
+    content:" ";
+     display:inline-block;
+    width:101%;
+    height:101%;
+    background:rgba(255,255,55,0.1);
+     border-radius:50%;
+    transition:all 0.4s
+  }
+  .check:hover{
+    box-shadow:0 1px 6px rgba(0,155,200,0.5)
+  }
+  .checked .check::after{
+    background:#0af;
+    transform: scale(.4,.4)
+  }
+  .checked .check{
+    border-color:#0af
+  }
+  
+  .submit{
+    display:inline-block;
+    text-decoration:none; 
+    border-radius:5px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.7);
+    padding:10px 20px;
+    color:#fff;
+    opacity:0.8;
+    margin:10px 0;
+    font-weight:normal;
+  }
+  .submit:hover{
+    opacity:1
+  }
+  .checked .submit{
+    background:#0af;
+    pointer-events:all
+  }
+  
+  
+  
+  .shake {
+      transform-origin: center;
+      animation-name: shake;
+      animation-duration: 400ms;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out
+  }
+  
+  @keyframes shake {
+      0% {
+          transform: none
+      }
+      12.5% {
+          transform: translateX(-6px) rotateY(-5deg)
+      }
+      37.5% {        
+          transform: translateX(5px) rotateY(4deg)
+      }
+      62.5% {       
+          transform: translateX(-3px) rotateY(-3deg)
+      }
+  
+      87.5% {
+          
+          transform: translateX(2px) rotateY(2deg)
+      }
+  
+      100% {
+          transform: none
+      }
+  }
 @media(min-width:1920px){
+   
+    .add{
+        background: white;
+        padding: 35px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 350px;
+        margin-bottom: 30px;
+        border-radius: 80px;
+        font-size: 20px;
+    }
+    .reset{
+      
+        padding: 35px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 20px;
+    }
+    .help, .support{
+        font-size: 20px
+    }
+    .signfooter {
+        margin-top: 300px;
+    }
+    .sign2{
+        margin-top: 170px;
+    }
+    .signin{padding: 35px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 20px;
+    }
     .accrow img {
         margin-left: 60px;
         width: 650px;
@@ -857,6 +1274,7 @@ margin-top: 10px;
         font-weight: bold;
         font-family: "Rubik Medium";
         margin-left: 428px;
+        
     }
     form .new {
         font-size: 16px;
@@ -868,6 +1286,7 @@ margin-top: 10px;
         font-weight: bold;
         font-family: "Rubik Medium";
     }
+
     .choose img {
         width: 215px;
     }
@@ -910,11 +1329,28 @@ margin-top: 10px;
         padding-right: 250px;
         font-size: 20px;
     }
+    .companyreg {
+        background-image: url(backgrounds/companyregistr.png);
+        height: 130%;
+    }
+    .regform {
+        margin-top: 70px;
+    }
+    .contract p{
+        font-size: 17px;
+    }
+    .regform h3{
+        font-size: 25px;
+    }
     .choose p {
         padding-left: 200px;
         padding-right: 200px;
         color: #1598E5;
         font-size: 18px;
+    }
+    .registfoot{
+        margin-top: 200px;
+
     }
     .btn-white{
         font-size: 25px;
@@ -927,6 +1363,18 @@ margin-top: 10px;
     }
 }
 @media(max-width:1500px){
+    
+    .add {
+        margin-top: 290px;
+        margin-bottom: 39px;}
+        .signfooter{
+            margin-top: 250px;
+        }
+        .sign2{
+        
+                margin-top: 160px;
+            
+        }
     form .profile {
         margin-right: 5px;
     }
@@ -948,7 +1396,10 @@ margin-top: 10px;
         font-size: 10px;
         font-weight: bold;
         font-family: "Rubik Medium";
-        margin-left: 185px;
+        margin-left: 170px;
+    }
+    .companyreg{
+        height: 122%;
     }
     .tarif {
         border-radius: 6px;
@@ -970,8 +1421,17 @@ margin-top: 10px;
         width: 200px;
         margin-top: -30px;
     }
+    .registfoot{
+        margin-top: 65px;
+    }
+    .companyreg {
+        height: 140%;
+    }
 }
 @media(max-width:1360px){
+    .signfooter {
+        margin-top: 130px;
+    }
     .wintext {
         padding-top: 51px;
     }
@@ -979,7 +1439,7 @@ margin-top: 10px;
         width: 490px;
     }
     form .profile {
-        margin-right: 1px;
+        margin-right: 2px;
         background: white;
         padding: 12px 30px 12px 29px;
         color: #203A7F;
@@ -987,13 +1447,19 @@ margin-top: 10px;
         font-size: 10px;
         font-weight: bold;
         font-family: "Rubik Medium";
-        margin-left: 109px;
+        margin-left: 90px;
     }
     .navbar-nav {
         margin-left: 40px;
     }
     .navbar-brand{
         margin-top: -35px;
+    }
+    .btns {
+        margin-top: 35px;
+    }
+    .registfoot{
+        margin-top: 45px;
     }
     .second {
         margin-bottom: 34px;
@@ -1034,8 +1500,19 @@ margin-top: 10px;
     .count .statistic{
         font-size: 55px;
     }
+    .add2{
+        margin-top: 190px;
+    }
 }
 @media(max-width:1280px){
+    
+    .add2{
+       
+        margin-top: 200px;
+}
+    .signfooter {
+        margin-top: 160px;
+    }
     .wintext {
         padding-top: 0px;
         margin-top: -30px;
@@ -1070,5 +1547,11 @@ margin-top: 10px;
     .footimg {
         width: 215px;
         margin-top: -10px;
+    }
+    .registfoot{
+        margin-top: 45px;
+    }
+    .companyreg {
+        height: 132%;
     }
 }
