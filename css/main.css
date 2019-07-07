@@ -651,6 +651,10 @@ margin-top: 10px;
               margin 1s,
               opacity 1s;
           }
+          .accordion h1{
+              font-size: 30px;
+              color: #2E394E;
+          }
           .accrow img{
               margin-left: 60px;
               width: 570px;
@@ -1204,6 +1208,19 @@ margin-bottom: 50px;
     }
   }
 @media(min-width:1920px){
+    .hello {
+        margin-top: 170px;
+        background: white;
+        padding: 20px;
+        position: relative;
+        width: 1514px;
+        border-radius: 8px;
+        height: 115px;
+    }
+    .text{
+        font-size: 16px;
+        margin-left: 55px;
+    }
     .wintext h1, h4 {
         font-size: 64px;
         font-family: "Proxima Nova";
@@ -1260,7 +1277,7 @@ margin-bottom: 50px;
     }
     .toggler {
         cursor: pointer;
-        margin-left: 1085px;
+        margin-left: 1143px;
     }
     .cardsvg {
         width: 539px;
@@ -1408,6 +1425,9 @@ margin-bottom: 50px;
     h6{
         font-size: 33px;
     }
+    .founders .col-4 {
+        margin-right: -140px;
+    }
 }
 @media(max-width:1500px){
     
@@ -1466,7 +1486,7 @@ margin-bottom: 50px;
     }
     .navbar-brand img {
         width: 200px;
-        margin-top: -30px;
+        margin-top: -25px;
     }
     .registfoot{
         margin-top: 65px;
@@ -1476,6 +1496,13 @@ margin-bottom: 50px;
     }
 }
 @media(max-width:1360px){
+    .mainwrap {
+        width: 125rem!important;
+    }
+    .toggler {
+        cursor: pointer;
+        margin-left: 935px;
+    }
     .signfooter {
         margin-top: 130px;
     }
@@ -1544,6 +1571,10 @@ margin-bottom: 50px;
         padding-right: 95px;
         color: #1598E5;
     }
+    .accordion h1 {
+        font-size: 24px;
+        color: #2E394E;
+    }
     .count .statistic{
         font-size: 55px;
     }
@@ -1582,7 +1613,7 @@ margin-bottom: 50px;
     }
     .toggler {
         cursor: pointer;
-        margin-left: 939px;
+        margin-left: 938px;
     }
     .play {
         margin-top: 100px;

@@ -123,7 +123,7 @@
 }
 
 .cardback {
-  background-image: url("backgrounds/cardback.svg");
+  background-image: url("backgrounds/signback.png");
   height: 100% ;
   background-position: center ;
   background-repeat: no-repeat;
@@ -379,7 +379,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 .payment-methods input:checked + label:after {
   background: url(https://lh3.google.com/u/0/d/0B4z-wUXuqP56SUtBYmExbkowelk=w2560-h1380-iv1);
   background-size: cover;
-  background-color: #003CDB;
+
   bottom: -1px;
   content: "";
   display: inline-block;
@@ -402,4 +402,145 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
   width: 131px;
     margin-left: -25px;
     margin-top: 10px;
+}
+@media(min-width:1920px){
+  .credit-card-box .strip {
+    background: -webkit-linear-gradient(315deg, #404040, #1a1a1a);
+    background: linear-gradient(135deg, #404040, #1a1a1a);
+    position: absolute;
+    width: 126%;
+    height: 50px;
+    top: 30px;
+    left: 0px;
+}
+.checkout {
+  margin-left: 220px;
+}
+.navbar ul{
+  margin-top: 15px;
+}
+.navbar-brand img {
+  width: 200px;
+  margin-top: -20px;
+}
+.form fieldset input, .form fieldset .select {
+ 
+  font-size: 18px;
+}
+.credit-card-box .ccv {
+  height: 36px;
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  top: 110px;
+  left: 50px;
+ right: 0;
+}
+  .applepay label {
+    background-image: url(../img/apple.svg);
+    background-size: 115px;
+  }
+  .bitcoin label {
+    background-image: url(../img/bitcoin.svg);
+    background-size: 115px;
+  }
+  .maestro label {
+    background-image: url(../img/maestro.svg);
+    background-size: 115px;
+  }
+  .stripe label {
+    background-image: url(../img/stripe.svg);
+    background-size: 115px;
+  }
+  .visa label {
+    background-image: url(../img/visa.svg);
+    background-size: 115px;
+  }
+  .master label {
+    background-image: url(../img/master.svg);
+    background-size: 115px;
+  }
+  
+  .paypal label {
+    background-image:url(../img/paypal.svg);
+    background-size: 115px;
+  }
+  
+  
+  .america label {
+    background-image: url(../img/american.svg);
+    background-size: 115px;
+  }
+  .credit-card-box .chip {
+    position: absolute;
+    width: 55px;
+    height: 39px;
+    top: 110px;
+    left: 40px;
+  }
+  .credit-card-box .card-expiration-date {
+    text-align: right;
+    left: 40px;
+    right: 340px;
+    font-size: 15px;
+    top: 160px;
+  }
+  .credit-card-box .number {
+    position: absolute;
+    margin: 0 auto;
+    top: 175px;
+    left: 40px;
+  }
+}
+@media(max-width:1441px){
+  .hello {
+    margin-top: 90px;
+    background: white;
+    padding: 7px;
+    position: relative;
+    width: 1356px;
+    border-radius: 8px;
+    height: 86px;
+}
+.payment-method + .payment-method {
+  margin-left: 15px;
+}
+.text {
+  width: 131px;
+  margin-left: -25px;
+  margin-top: 18px;
+}
+.navbar ul{
+  margin-top: 20px;
+}
+
+}
+@media(max-width:1360px){
+  .hello {
+    margin-top: 90px;
+    background: white;
+    padding: 3px;
+    position: relative;
+    width: 1239px;
+    border-radius: 8px;
+    height: 80px;
+}
+.payment-method + .payment-method {
+  margin-left: 0px;
+}
+}
+@media(max-width:1280px){
+  .hello {
+    margin-top: 90px;
+    background: white;
+    padding: 3px;
+    position: relative;
+    width: 1239px;
+    border-radius: 8px;
+    height: 80px;
+}
+
+.payment-method + .payment-method {
+  margin-left: 1px;
+}
 }
