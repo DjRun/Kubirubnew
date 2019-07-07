@@ -117,7 +117,9 @@
   -o-transition: background .2s ease-in-out;
   transition: background .2s ease-in-out;
 }
-
+.tariftext{
+  color: white;
+}
 .form button:hover {
   background:#3886d2;
 }

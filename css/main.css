@@ -677,7 +677,9 @@ margin-top: 10px;
     .img404 img{
         width: 950px;
     }
-
+    .tariftext{
+        color: white;
+      }
     .Show {
         background: #0045B2;
         color: white;
