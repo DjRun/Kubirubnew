@@ -26,17 +26,18 @@ body, html {
   h1{
     margin-top: 25px;
   }
-  .companyreg{
-    background-image: url("backgrounds/companyregistr.png");
-    height: 145% ;
+ 
+  .sign {
+    background-image: url("backgrounds/signback.png");
+    height: 100% ;
     width: auto;
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .sign {
-    background-image: url("backgrounds/signback.png");
-    height: 200% ;
+  .companyreg{
+    background-image: url("backgrounds/companyregistr.png");
+    height: 140% ;
     width: auto;
     background-position: center ;
     background-repeat: no-repeat;
@@ -1164,6 +1165,43 @@ margin-bottom: 50px;
       100% {
           transform: none
       }
+  }
+  
+
+.header-text {
+    text-align: center;
+  }
+  
+  
+  .header-text span {
+    color: #7efff6;
+    font-weight: bold;
+  }
+  
+  .header-text {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  button.cta-btn {
+    height: 5vh;
+    width: 20vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(0,194,174,1) 0%, rgba(126,255,246,1) 100%);
+    border-radius: 2px;
+    border: none;
+  }
+  
+  @media only screen and (max-width: 425px) {
+    button.cta-btn {
+      width: 40vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    button.cta-btn {
+      width: 10vw;
+    }
   }
 @media(min-width:1920px){
    
