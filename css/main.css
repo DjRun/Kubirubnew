@@ -23,10 +23,31 @@ body, html {
     display: none; 
 }
 
+
   h1{
     margin-top: 25px;
   }
- 
+  .video1{
+    height: 200px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0px 15px 45px 0px rgba(21,152,229,0.8);
+    -moz-box-shadow: 0px 15px 45px 0px rgba(21,152,229,0.8);
+    box-shadow: 0px 15px 45px 0px rgba(21,152,229,0.8);
+  }
+  .video2{
+    height: 690px;
+    -webkit-box-shadow: 0px 15px 45px 0px rgba(21,152,229,0.8);
+    -moz-box-shadow: 0px 15px 45px 0px rgba(21,152,229,0.8);
+    box-shadow: 0px 15px 45px 0px rgba(21,152,229,0.8);
+  }
+  .howto{
+    background-image: url("backgrounds/about.png");
+    height: auto ;
+    width: auto;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .sign {
     background-image: url("backgrounds/signback.png");
     height: 100% ;
@@ -160,6 +181,11 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
     background: linear-gradient(90deg, rgba(0,60,219,1) , rgba(0,30,110,1) );
     color: white;
     padding: 12px 30px 12px 29px;
+    -webkit-box-shadow: 0px 0px 30px -8px rgba(21,152,229,1);
+    -moz-box-shadow: 0px 0px 30px -8px rgba(21,152,229,1);
+    box-shadow: 0px 0px 30px -8px rgba(21,152,229,1);
+   
+   
 }
 .btn-white:hover{
     color: white!important;
@@ -392,6 +418,7 @@ margin-top: 10px;
 .second p{
     font-family: "Rubik Medium";
     font-weight: 600;
+    margin-top: 30px;
 }
 .price{
     font-family: "Rubik Bold";
@@ -881,7 +908,9 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
     font-weight: bold;
     font-family: "Rubik Medium";
 }
+
 .reset{
+   
    border: solid 1.5px white;
     padding: 20px;
     padding-left: 50px;
@@ -896,10 +925,6 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 }
 .signfooter{
     margin-top: 250px;
-}
-.signfooter .text-center{
-    margin-left: 420px;
-  
 }
 .productby img{
     width: 185px;
@@ -1073,7 +1098,10 @@ margin-bottom: 50px;
     padding-right: 60px;
    
   }
-
+  .formhr{
+      background: #003CDB;
+      height: 1px;
+  }
   .check{
     display:inline-block;
     width:40px;
@@ -1210,6 +1238,18 @@ margin-bottom: 50px;
     }
   }
 @media(min-width:1920px){
+    .credit-card-box .logo {
+        position: absolute;
+        top: 205px;
+        right: -70px;
+        margin-top: 22px;
+    }
+    .visa {
+        background: url(http://svgshare.com/i/13Q.svg);
+        width: 81px;
+        height: 26px;
+        background-size: cover;
+    }
     .hello {
         margin-top: 170px;
         background: white;

@@ -5,7 +5,37 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
- 
+
+  
+ .congrats{
+  background-image: url("backgrounds/signback.png");
+  height: 100% ;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+
+ .congrats h1, .congrats p{
+   color: white;
+ }
+.congrats h1{
+  font-size: 65px;
+}
+.congrats p{
+  font-size: 20px;
+  font-weight: 10;
+}
+.congratsbody{
+  margin-top: 135px;
+}
+.divburger{
+  text-align: right;
+}
+.congrats img{
+  width: 600px;
+}
+
 .second{
   height: auto;
   background: white;
