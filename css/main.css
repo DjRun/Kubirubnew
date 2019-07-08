@@ -1,3 +1,4 @@
+html { font-size: calc(1em + 1vw) }
 @font-face{
     src: url("fonts/rubik/rubiklight.ttf");
     font-family: "Rubik Medium";
@@ -144,10 +145,10 @@ form .profile{
     padding: 12px 30px 12px 29px;
     color: #203A7F;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     font-family: "Rubik Medium";
-    margin-left: 200px;
+   margin-left: 250px;
     -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
@@ -165,10 +166,7 @@ form .new {
 -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 }
-.text-md-left{
-    padding-top: 60px;
-    color: #003CDB;
-}
+
 .text-md-left h1{
     padding-right: 120px;
     font-size: 40px;
@@ -329,13 +327,7 @@ font-weight: normal;
 color:#fff;
 opacity:1;
 }
-h5{
-    margin-top: 15px;
-    padding-left: 210px;
-    padding-right: 210px;
-    color: #1598E5;
-    font-weight: bold;
-}
+
 .choose p{
     padding-left: 160px;
     padding-right: 160px;
@@ -444,13 +436,19 @@ margin-top: 10px;
     margin-bottom: 60px;
     color: white;
 }
-.crd{
-    margin-top: 100px;
+.crd {
+    margin-top: 50px;
 }
 .first{
     margin-bottom: 40px;
     font-weight: bold;
     font-size: 18px;
+}
+.good{
+    width: 355px;
+    -webkit-box-shadow: 0px -5px 23px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 23px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 23px 6px rgba(0,0,0,0.75);
 }
 .second{
     margin-bottom: 60px;
@@ -558,17 +556,18 @@ margin-top: 10px;
           .play{
               margin-top: 100px;
           }
-          .footer p{
-              color:#2E394E;
-              font-size: 15px;
-              font-family: "Rubik Medium";
-          }
-          .h{
-              color:#2E394E;
-              
-              font-size: 20px!important;
-              font-family: "Rubik Bold"!important;
-          }
+          .footer p {
+            color: #2E394E;
+            font-size: 1.5em;
+            font-weight: 500;
+            font-family: "Rubik Medium";
+        }
+          .h {
+            color: #2E394E;
+            font-size: 2em!important;
+            font-weight: 100;
+            font-family: "Rubik Bold"!important;
+        }
           .footrow{
               margin-top: 70px;
           }
@@ -679,16 +678,11 @@ margin-top: 10px;
               opacity 1s;
           }
           .accordion h1{
-              font-size: 30px;
+              font-size: 3em;
               color: #2E394E;
+              font-weight: 100;
           }
-          .accrow img{
-              margin-left: 60px;
-              width: 570px;
-          }
-          .accrow{
-              margin-top: 50px;
-          }
+        
           .accordion > section{
               background: white;
               margin-bottom: 30px;
@@ -701,9 +695,10 @@ margin-top: 10px;
           form .profile {
               margin-right: 18px;
             }
-    .img404 img{
-        width: 950px;
-    }
+            .img404 img {
+                width: 65vw;
+                margin-top: 50px;
+            }
     .tariftext{
         color: white;
       }
@@ -741,7 +736,11 @@ margin-top: 10px;
         display: inline-block;
         vertical-align: middle;
     }
-    
+    .reg label{
+        color: #003CDB;
+        font-weight: bold;
+        font-family: "Rubik Medium";
+    }
     .circ.plus:before,
     .circ.plus:after {
         content: '';
@@ -845,21 +844,20 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
   .showpanel{
     margin-left:70px;
   }
- .wintext{
-     padding-top: 50px;
- }
- .chooseplan{
+  .wintext {
+    padding-top: 75px;
+    margin-bottom: 40px;
+}
+.chooseplan {
     background: white;
     padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-   
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 80px;
     font-size: 15px;
     font-weight: bold;
     font-family: "Rubik Medium";
-
- }
+}
  .btns{
      margin-top: 50px;
  }
@@ -884,18 +882,18 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
      color: #001E6E;
      font-weight: bold;
  }
- .cancel{
+ .cancel {
     border: solid 1.5px white;
     padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
     border-radius: 80px;
     font-size: 15px;
     font-weight: bold;
     font-family: "Rubik Medium";
     background: #001E6E;
     color: white;
- }
+}
 .add{
     background: white;
     padding: 20px;
@@ -923,9 +921,7 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
     color: white;
     
 }
-.signfooter{
-    margin-top: 250px;
-}
+
 .productby img{
     width: 185px;
     margin-left: 200px;
@@ -933,9 +929,7 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 .support{
     margin-left: 5px;
 }
-.signfooter{
-    margin-top: 250px;
-}
+
 .sign2{
     margin-top: 150px;
 }
@@ -953,7 +947,13 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
     width: 3px;
     display: inline;
 }
-
+.vertical1 {
+    border: none;
+    border-left: 2px solid white;
+    height: 150px;
+    width: 3px;
+    display: inline;
+}
 .signfoot{
     color: white;
     background-color: white;
@@ -1055,7 +1055,7 @@ margin-bottom: 50px;
 
     width:100px;
     height:100px;
-    background:url(camera.png);
+    background:url(backgrounds/camera.png);
     background-position: center ;
     background-repeat: no-repeat;
     margin-left:50%;
@@ -1237,19 +1237,8 @@ margin-bottom: 50px;
       width: 10vw;
     }
   }
-@media(min-width:1920px){
-    .credit-card-box .logo {
-        position: absolute;
-        top: 205px;
-        right: -70px;
-        margin-top: 22px;
-    }
-    .visa {
-        background: url(http://svgshare.com/i/13Q.svg);
-        width: 81px;
-        height: 26px;
-        background-size: cover;
-    }
+
+ 
     .hello {
         margin-top: 170px;
         background: white;
@@ -1268,6 +1257,7 @@ margin-bottom: 50px;
         font-family: "Proxima Nova";
         font-weight: bold;
         color: white;
+        margin-top: 25px;
     }
     .store img {
         width: 179px;
@@ -1276,9 +1266,9 @@ margin-bottom: 50px;
     .add{
         background: white;
         padding: 35px;
-        padding-left: 100px;
-        padding-right: 100px;
-        margin-top: 350px;
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-top: 200px;
         margin-bottom: 30px;
         border-radius: 80px;
         font-size: 20px;
@@ -1294,22 +1284,24 @@ margin-bottom: 50px;
         font-size: 20px
     }
     .signfooter {
-        margin-top: 300px;
+        margin-top: 350px;
     }
-    .sign2{
-        margin-top: 170px;
-    }
-    .signin{padding: 35px;
-        padding-left: 100px;
-        padding-right: 100px;
+  .sign2 {
+    margin-top: 200px;
+}
+    .signin {
+        padding: 35px;
+        padding-left: 150px;
+        padding-right: 150px;
         font-size: 20px;
     }
     .accrow img {
         margin-left: 60px;
-        width: 650px;
+        width: 670px;
+        margin-top: 100px;
     }
     .mainwrap {
-        width: 150rem!important;
+        width: 45rem!important;
     }
     .Show{
         font-size:22px;
@@ -1337,6 +1329,7 @@ margin-bottom: 50px;
         transform: translateX(-50%);
         margin-top: 35px;
     }
+    
     figure img {
         width: 445px;
         margin-left: -10px;
@@ -1359,7 +1352,7 @@ margin-bottom: 50px;
         height: 20%;
     }
     .text-md-left{
-        padding-top: 150px;
+   
         color: #003CDB;
     }
     .text-md-left h1{
@@ -1367,21 +1360,10 @@ margin-bottom: 50px;
         padding-right: 150px;
     }
     span.icon-play {
-        top: 485px;
-        left: 285px;
+        top: 380px;
+        left: 290px;
     }
-    form .profile {
-        margin-right: 7px;
-        background: white;
-        padding: 12px 30px 12px 29px;
-        color: #203A7F;
-        border-radius: 10px;
-        font-size: 15px;
-        font-weight: bold;
-        font-family: "Rubik Medium";
-        margin-left: 428px;
-        
-    }
+ 
     form .new {
         font-size: 16px;
         background: #003CDB;
@@ -1409,7 +1391,7 @@ margin-bottom: 50px;
         font-size: 25px;
     }
     .price {
-        font-size: 40px;
+        font-size: 30px;
     }
     .tarif .btn {
         font-size: 23px;
@@ -1427,7 +1409,7 @@ margin-bottom: 50px;
         margin-top: 95px;
     }
     .second p {
-        font-size: 30px;
+        font-size: 20px;
     }
     h5 {
         margin-top: 15px;
@@ -1437,7 +1419,7 @@ margin-bottom: 50px;
     }
     .companyreg {
         background-image: url(backgrounds/companyregistr.png);
-        height: 130%;
+        height: 140%;
     }
     .regform {
         margin-top: 70px;
@@ -1454,9 +1436,8 @@ margin-bottom: 50px;
         color: #1598E5;
         font-size: 18px;
     }
-    .registfoot{
+    .registfoot {
         margin-top: 200px;
-
     }
     .btn-white{
         font-size: 25px;
@@ -1470,26 +1451,81 @@ margin-bottom: 50px;
     .founders .col-4 {
         margin-right: -140px;
     }
-}
+
 @media(max-width:1500px){
-    
+    .good {
+        width: auto;
+        -webkit-box-shadow: 0px -5px 23px 6px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -5px 23px 6px rgba(0,0,0,0.75);
+        box-shadow: 0px -5px 23px 6px rgba(0,0,0,0.75);
+    }
+    figure img {
+        width: 325px;
+        margin-left: -10px;
+    }
+    .first {
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .second {
+        margin-bottom: 22px;
+        font-size: 15px;
+    }
+    .second p {
+        font-family: "Rubik Medium";
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .card h1 {
+        margin-top: -47px;
+        font-size: 30px;
+        margin-bottom: 69px;
+        color: white;
+    }
+    h5 {
+        margin-top: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 20px;
+    }
+    .choose p {
+        padding-left: 100px;
+        padding-right: 100px;
+        color: #1598E5;
+        font-size: 18px;
+    }
+    .accordion h1 {
+        font-size: 2em;
+        color: #2E394E;
+        font-weight: 100;
+    }
+    .credit-card-box {
+        -webkit-perspective: 1000;
+        perspective: 1000;
+        width: 475px;
+        height: 361px;
+        position: absolute;
+        margin-left: 948px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin-top: 16px;
+    }
+    .navbar-nav {
+        margin-left: 30px;
+    }
     .add {
         margin-top: 290px;
         margin-bottom: 39px;}
         .signfooter{
             margin-top: 250px;
         }
-        .sign2{
-        
-                margin-top: 160px;
-            
+        .sign2 {
+            margin-top: 121px;
         }
-    form .profile {
-        margin-right: 5px;
-    }
-    .wintext {
-        padding-top: 90px;
-    }
+        .wintext {
+            padding-top: 1px;
+        }
     .accrow img {
         width: 545px;
     }
@@ -1497,15 +1533,18 @@ margin-bottom: 50px;
         height: 23%;
     }
     form .profile {
-        margin-right: 5px;
+        margin-right: 3px;
         background: white;
+        margin-left: 40px;
         padding: 12px 30px 12px 29px;
         color: #203A7F;
         border-radius: 10px;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: bold;
         font-family: "Rubik Medium";
-        margin-left: 170px;
+    }
+    form .new{
+        font-size: 12px;
     }
     .companyreg{
         height: 122%;
@@ -1533,11 +1572,51 @@ margin-bottom: 50px;
     .registfoot{
         margin-top: 65px;
     }
+    .regform {
+        margin-top: 92px;
+    }
+    .mainwrap {
+        width: 42rem!important;
+    }
+    .text {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .toggler {
+        cursor: pointer;
+        margin-left: 919px;
+    }
+    .text-md-left h1 {
+        font-size: 2.5vw;
+        padding-right: 150px;
+    }
+    h6 {
+        font-size: 2.3vw;
+    }
+    span.icon-play {
+        top: 345px;
+        left: 290px;
+    }
+    .add {
+        margin-top: 225px;
+        margin-bottom: 39px;
+    }
     .companyreg {
-        height: 118%;
+        height: 140%;
     }
 }
 @media(max-width:1360px){
+    .text-md-left h1 {
+        font-size: 2.5vw;
+        padding-right: 150px;
+    }
+    span.icon-play {
+        top: 320px;
+        left: 290px;
+    }
+    h6 {
+        font-size: 2em;
+    }
     .mainwrap {
         width: 125rem!important;
     }
@@ -1556,17 +1635,14 @@ margin-bottom: 50px;
     }
     form .profile {
         margin-right: 2px;
-        background: white;
-        padding: 12px 30px 12px 29px;
-        color: #203A7F;
-        border-radius: 10px;
-        font-size: 10px;
-        font-weight: bold;
-        font-family: "Rubik Medium";
-        margin-left: 90px;
+        margin-left: 4px;
+      
     }
     .navbar-nav {
-        margin-left: 40px;
+        margin-left: -37px;
+    }
+    .navbar-nav li {
+        font-size: 17px;
     }
     .navbar-brand{
         margin-top: -35px;
@@ -1633,9 +1709,13 @@ margin-bottom: 50px;
     .regform {
         margin-top: 40px;
     }
+    
 }
 @media(max-width:1280px){
-    
+    .add {
+        margin-top: 213px;
+        margin-bottom: 39px;
+    }
     .add2{
        
         margin-top: 200px;
@@ -1645,7 +1725,7 @@ margin-bottom: 50px;
     }
     .wintext {
         padding-top: 0px;
-        margin-top: -30px;
+        margin-top: -126px;
     }
     .store img {
         width: 150px;
@@ -1655,7 +1735,7 @@ margin-bottom: 50px;
     }
     .toggler {
         cursor: pointer;
-        margin-left: 938px;
+        margin-left: 877px;
     }
     .play {
         margin-top: 100px;
@@ -1667,12 +1747,16 @@ margin-bottom: 50px;
         padding-right: 50px;
     }
     .mainwrap {
-        width: 125rem!important;
+        width: 43rem!important;
         margin-left: -62px !important;
-      }
+    }
       .navbar-brand img {
         width: 200px;
-        margin-top: -7px;
+        margin-top: 1px;
+    }
+    .text {
+        font-size: 16px;
+        margin-left: -10px;
     }
     .footimg {
         width: 215px;
@@ -1682,9 +1766,9 @@ margin-bottom: 50px;
         margin-top: 30px;
     }
     .regform {
-        margin-top: 50px;
+        margin-top: 73px;
     }
     .companyreg {
-        height: 130%;
+        height: 150%;
     }
 }

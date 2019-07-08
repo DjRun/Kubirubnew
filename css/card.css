@@ -188,8 +188,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 }
 .credit-card-box .logo {
   position: absolute;
-  top: 150px;
-  right: 17px;
+  top: 190px;
+  right: -73px;
   margin-top: 22px;
 }
 .visa {
@@ -263,11 +263,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
   display: block;
   margin-bottom: 3px;
 }
-.credit-card-box .card-holder,
-.credit-card-box .card-expiration-date {
+.credit-card-box .card-holder, .credit-card-box .card-expiration-date {
   position: absolute;
   margin: 0 auto;
-  top: 180px;
+  top: 210px;
   left: 19px;
   font-size: 22px;
   text-transform: uppercase;
@@ -404,7 +403,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
     margin-left: -25px;
     margin-top: 10px;
 }
-@media(min-width:1920px){
+
   .credit-card-box .strip {
     background: -webkit-linear-gradient(315deg, #404040, #1a1a1a);
     background: linear-gradient(135deg, #404040, #1a1a1a);
@@ -474,25 +473,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
   }
   .credit-card-box .chip {
     position: absolute;
-    width: 55px;
-    height: 39px;
-    top: 110px;
-    left: 40px;
-  }
+    width: 63px;
+    height: 41px;
+    top: 107px;
+    left: 18px;
+}
   .credit-card-box .card-expiration-date {
     text-align: right;
-    left: 40px;
+    left: 20px;
     right: 340px;
-    font-size: 15px;
-    top: 160px;
-  }
-  .credit-card-box .number {
-    position: absolute;
-    margin: 0 auto;
-    top: 175px;
-    left: 40px;
-  }
+    font-size: 20px;
+    top: 185px;
 }
+.credit-card-box .number {
+  position: absolute;
+  margin: 0 auto;
+  top: 154px;
+  left: 19px;
+}
+
+
 @media(max-width:1441px){
   .hello {
     margin-top: 90px;
@@ -502,6 +502,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
     width: 1356px;
     border-radius: 8px;
     height: 86px;
+}
+.checkout {
+  margin-left: 100px;
 }
 .payment-method + .payment-method {
   margin-left: 15px;

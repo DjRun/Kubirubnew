@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418.199" height="178.56" viewBox="0 0 418.199 178.56">
+  <defs>
+    <filter id="Rectangle_1524" x="0" y="0" width="418.199" height="178.56" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feFlood flood-color="#001e6e" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Button_dovnloan" data-name="Button dovnloan" transform="translate(41.9 31.419)">
+    <g transform="matrix(1, 0, 0, 1, -41.9, -31.42)" filter="url(#Rectangle_1524)">
+      <rect id="Rectangle_1524-2" data-name="Rectangle 1524" width="334.199" height="94.56" rx="10" transform="translate(42 31)" fill="#fff"/>
+    </g>
+    <text id="Go_to_log_in_page" data-name="Go to log in page" transform="translate(123.1 54.581)" fill="#003cdb" font-size="21" font-family="Rubik-Medium, Rubik" font-weight="500" letter-spacing="0em"><tspan x="-83.42" y="0">Go to log in page</tspan></text>
+    <line id="Line_102" data-name="Line 102" x2="61.549" transform="translate(233.826 47.081)" fill="none" stroke="#003cdb" stroke-linecap="round" stroke-width="10"/>
+    <path id="Path_1881" data-name="Path 1881" d="M273.418,30.585l16.423,16.423L273.418,63.431" transform="translate(5.894 0.12)" fill="none" stroke="#003cdb" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  </g>
+</svg>

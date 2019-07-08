@@ -1,3 +1,16 @@
+html { font-size: calc(1em + 1vw) }
+@font-face{
+  src: url("fonts/rubik/rubiklight.ttf");
+  font-family: "Rubik Medium";
+}
+@font-face{
+  src: url("fonts/rubik/rubikmedium.ttf");
+  font-family: "Rubik Bold";
+}
+@font-face{
+  src: url("fonts/proximanova.ttf");
+  font-family: "Proxima Nova";
+}
 .about{
     background-image: url("backgrounds/about.png");
     height: 100% ;
@@ -20,11 +33,17 @@
    color: white;
  }
 .congrats h1{
-  font-size: 65px;
+  font-size: 6em;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.congrats img{
+  margin-left: -40px;
 }
 .congrats p{
-  font-size: 20px;
-  font-weight: 10;
+  font-size: 1.8em;
+ font-weight: 100;
+  font-family: "Rubik Medium"
 }
 .congratsbody{
   margin-top: 135px;
@@ -32,10 +51,9 @@
 .divburger{
   text-align: right;
 }
-.congrats img{
-  width: 600px;
+.congrats .boy {
+  width: 40vw;
 }
-
 .second{
   height: auto;
   background: white;
@@ -50,10 +68,7 @@
     font-size: 20px;
     padding-right: 100px;
   }
-  .navbar-brand img {
-    width: 200px;
-    margin-top: -30px;
-}
+
 
 hr{
   width: 97%; 
@@ -66,15 +81,34 @@ hr{
   font-size: 26px;
   margin-top: 50px;
  }
- .game img {
-  width: 400px;
-  margin-left: -51px;
-}
+
  
 }
 @media(max-width:1440PX){
   .game img {
-    width: 340px;
+    width: 345px;
+}
+.congrats h1 {
+  font-size: 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.loginpage{
+  width: 300px;
+}
+.congrats p {
+  font-size: 1.7em;
+  font-weight: 100;
+  font-family: "Rubik Medium";
+}
+.congrats .boy{
+  margin-left: 0px;
+  width: 38vw;
+}
+.second {
+  height: auto;
+  background: white;
+  margin-top: 70px;
 }
 }
 @media(max-width:1360px){
@@ -88,9 +122,22 @@ hr{
   .game img {
     width: 345px;
 }
-.navbar-brand img {
-  width: 200px;
-  margin-top: -10px;
+.congrats h1 {
+  font-size: 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.loginpage{
+  width: 300px;
+}
+.congrats p {
+  font-size: 1.3em;
+  font-weight: 100;
+  font-family: "Rubik Medium";
+}
+.congrats .boy{
+  margin-left: 0px;
+  width: 38vw;
 }
 .second {
   height: auto;
