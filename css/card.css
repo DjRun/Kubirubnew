@@ -504,10 +504,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
     height: 86px;
 }
 .checkout {
-  margin-left: 100px;
+  margin-left: 30px;
 }
 .payment-method + .payment-method {
-  margin-left: 15px;
+  margin-left: 31px;
 }
 .text {
   width: 131px;
@@ -519,32 +519,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 }
 
 }
-@media(max-width:1360px){
-  .hello {
-    margin-top: 90px;
-    background: white;
-    padding: 3px;
-    position: relative;
-    width: 1239px;
-    border-radius: 8px;
-    height: 80px;
-}
-.payment-method + .payment-method {
-  margin-left: 0px;
-}
-}
-@media(max-width:1280px){
-  .hello {
-    margin-top: 90px;
-    background: white;
-    padding: 3px;
-    position: relative;
-    width: 1239px;
-    border-radius: 8px;
-    height: 80px;
-}
 
+@media(max-width:1366px){
+  .hello {
+    margin-top: 90px;
+    background: white;
+    padding: 3px;
+    position: relative;
+    width: 1239px;
+    border-radius: 8px;
+    height: 80px;
+}
 .payment-method + .payment-method {
-  margin-left: 1px;
+  margin-left: 15px;
 }
 }
