@@ -180,11 +180,11 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
     font-weight: bold;
     background: linear-gradient(90deg, rgba(0,60,219,1) , rgba(0,30,110,1) );
     color: white;
-    padding: 12px 30px 12px 29px;
+    padding: 18px 50px 18px 50px;
     -webkit-box-shadow: 0px 0px 30px -8px rgba(21,152,229,1);
     -moz-box-shadow: 0px 0px 30px -8px rgba(21,152,229,1);
     box-shadow: 0px 0px 30px -8px rgba(21,152,229,1);
-   
+   border-radius: 10px;
    
 }
 .btn-white:hover{
@@ -705,7 +705,7 @@ margin-top: 10px;
         color: white;
       }
     .Show {
-        background: #0045B2;
+        background:#1598E5;
         color: white;
         border-radius: 41px;
         border-color: transparent;
@@ -719,7 +719,7 @@ margin-top: 10px;
 }
     .Hide {
         font-size: 15px;
-        background: #0045B2;
+        background: #1598E5;
         color: white;
         border-radius: 41px;
         border-color: transparent;
@@ -728,13 +728,14 @@ margin-top: 10px;
     }
     
     .circ {
-        background: white;
-        border: 1px solid #fff;
-        width: 20px;
-        height: 20px;
+        background: #005F96;
+        border: 1px solid #005F96;
+        width: 37px;
+        height: 37px;
         border-radius: 100%;
         position: relative;
-        margin: 4px;
+        margin-left: 10px;
+        margin: 0px;
         display: inline-block;
         vertical-align: middle;
     }
@@ -751,17 +752,17 @@ margin-top: 10px;
         left: 0;
         right: 0;
         bottom: 0;
-        background: blue;
+        background: white;
     }
     
     .circ.plus:before {
-        width: 2px;
+        width: 3px;
         margin: 2px auto;
     }
     
     .circ.plus:after {
         margin: auto 2px;
-        height: 2px;
+        height: 3px;
     }
     
     
@@ -1310,11 +1311,11 @@ margin-bottom: 50px;
     .mainwrap {
         width: 45rem!important;
     }
-    .Show{
-        font-size:22px;
+    .Show {
+        font-size: 20px;
     }
     .Hide{
-        font-size: 22px;
+        font-size: 20px;
     }
     .toggler {
         cursor: pointer;
@@ -1368,9 +1369,11 @@ margin-bottom: 50px;
     }
     span.icon-play {
         top: 380px;
-        left: 290px;
+        left: 255px;
     }
- 
+    .video-btn{
+        text-transform: lowercase;
+    }
     form .new {
         font-size: 16px;
         background: #003CDB;
@@ -1447,10 +1450,10 @@ margin-bottom: 50px;
         margin-top: 200px;
     }
     .btn-white{
-        font-size: 25px;
+        font-size: 15px;
     }
     .btn-outline-white{
-        font-size: 25px;
+        font-size: 20px;
     }
     h6{
         font-size: 33px;
@@ -1621,18 +1624,22 @@ margin-bottom: 50px;
         padding-right: 150px;
     }
     span.icon-play {
-        top: 294px;
-        left: 243px;
+        top: 297px;
+        left: 255px;
     }
     h6 {
         font-size: 2em;
     }
     .mainwrap {
-        width: 125rem!important;
+        width: 41rem!important;
+    }
+    .text {
+        font-size: 16px;
+        margin-left: -20px;
     }
     .toggler {
         cursor: pointer;
-        margin-left: 935px;
+        margin-left: 845px;
     }
     .signfooter {
         margin-top: 130px;
@@ -1644,9 +1651,8 @@ margin-bottom: 50px;
         width: 490px;
     }
     form .profile {
-        margin-right: 2px;
-        margin-left: 4px;
-      
+        margin-right: 4px;
+        margin-left: 98px;
     }
     .navbar-nav {
         margin-left: -37px;
@@ -1680,7 +1686,7 @@ margin-bottom: 50px;
         margin-left: 45px;
     }
     .foot p {
-        margin-left: 30px;
+        margin-left: 5px;
     }
     .foot .fa {
         font-size: 25px;
@@ -1742,7 +1748,7 @@ margin-bottom: 50px;
         top: 29%;
     }
     .btn-white {
-        font-size: 19px;
+        font-size: 15px;
     }
     
 }
@@ -1781,7 +1787,11 @@ margin-bottom: 50px;
     }
     .toggler {
         cursor: pointer;
-        margin-left: 877px;
+        margin-left: 885px;
+    }
+    form .profile {
+        margin-right: 4px;
+        margin-left: 20px;
     }
     .play {
         margin-top: 100px;
