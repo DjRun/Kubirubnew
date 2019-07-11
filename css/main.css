@@ -23,7 +23,9 @@ body, html {
   ::-webkit-scrollbar { 
     display: none; 
 }
-
+.nav-item{
+    text-transform: lowercase;
+}
 
   h1{
     margin-top: 25px;
@@ -806,7 +808,12 @@ box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
       .user-card {
         height: 460px;
         width: 250px;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      
+   }
+   .user-card:hover{
+       transition: 1s;
+      
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
    }
     .user-card__header {
         width: 100%;
@@ -1311,7 +1318,7 @@ margin-bottom: 50px;
     }
     .toggler {
         cursor: pointer;
-        margin-left: 1143px;
+        margin-left: 1225px;
     }
     .cardsvg {
         width: 539px;
