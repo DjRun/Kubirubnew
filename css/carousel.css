@@ -119,6 +119,10 @@ figure p{
     text-align: center;
     color: black;
   }
+  figcaption p{
+    font-size: 15px!important;
+   
+}
   .slick-slider .slick-dots button:before, .slick-slider .slick-dots .slick-active button:before {
     color: rgba(255, 255, 255, .85);
   }

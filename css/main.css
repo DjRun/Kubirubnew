@@ -1,4 +1,4 @@
-html { font-size: calc(1em + 1vw) }
+
 @font-face{
     src: url("fonts/rubik/rubiklight.ttf");
     font-family: "Rubik Medium";
@@ -83,15 +83,15 @@ body, html {
 }
   .navbar-brand img{
       width: 200px;
-      margin-top: -30px;
+      margin-top: -15px;
   }
   .navbar{
     padding-top: 35px;
    
   }
-  .navbar-nav{
-      margin-left: 120px;
-  }
+  .navbar-nav {
+    margin-left: 70px;
+}
   .navbar-nav li{
       font-size: 15px;
   }
@@ -117,6 +117,7 @@ body, html {
     width: 40px;
     z-index: 1;  
 }
+
 .lang-switcher:before {
     content: attr(data-lang-1);
 }
@@ -150,7 +151,7 @@ form .profile{
     font-size: 16px;
     font-weight: bold;
     font-family: "Rubik Medium";
-   margin-left: 250px;
+   margin-left: 50px;
     -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75);
@@ -401,6 +402,7 @@ margin-top: 10px;
 }
 .tarif{
     border-radius: 6px;
+    border-color: #003CDB;
 }
 .tarif h1{
     font-family: "Rubik Medium";
@@ -424,6 +426,8 @@ margin-top: 10px;
     font-family: "Rubik Medium";
     font-weight: bold;
     font-size: 15px;
+    border-radius:100px!important;
+    
     margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
@@ -785,10 +789,7 @@ margin-top: 10px;
     .showpanel {
         display: none;
    }
-    .toggler {
-        cursor: pointer;
-        margin-left: 1000px;
-   }
+
     .toggler span {
         display: inline-block;
    }
@@ -1337,7 +1338,7 @@ input[type="checkbox"] {
         margin-top: 100px;
     }
     .mainwrap {
-        width: 45rem!important;
+        width: 150rem!important;
     }
     .Show {
         font-size: 20px;
@@ -1347,7 +1348,7 @@ input[type="checkbox"] {
     }
     .toggler {
         cursor: pointer;
-        margin-left: 1225px;
+        margin-left: 1147px;
     }
     .cardsvg {
         width: 539px;
@@ -1404,6 +1405,7 @@ input[type="checkbox"] {
     }
     .navbar-nav li {
         font-size: 19px;
+        margin-right: 45px;
     }
     .count{
         height: 20%;
@@ -1415,9 +1417,10 @@ input[type="checkbox"] {
     .text-md-left h1{
         font-size: 60px;
         padding-right: 150px;
+        padding-top: 120px;
     }
     span.icon-play {
-        top: 380px;
+        top: 425px;
         left: 255px;
     }
     .video-btn{
@@ -1512,6 +1515,7 @@ input[type="checkbox"] {
     }
 
 @media(max-width:1500px){
+ 
     span.icon-play {
         top: 345px;
         left: 260px;
@@ -1577,6 +1581,10 @@ input[type="checkbox"] {
     .navbar-nav {
         margin-left: 30px;
     }
+    .navbar-nav li {
+        font-size: 19px;
+        margin-right: 30px;
+    }
     .add {
         margin-top: 290px;
         margin-bottom: 39px;}
@@ -1605,6 +1613,10 @@ input[type="checkbox"] {
         font-size: 12px;
         font-weight: bold;
         font-family: "Rubik Medium";
+    }
+    .navbar-nav li {
+        font-size: 19px;
+        margin-right: 34px;
     }
     form .new{
         font-size: 12px;
@@ -1656,10 +1668,7 @@ input[type="checkbox"] {
     h6 {
         font-size: 2.3vw;
     }
-    span.icon-play {
-        top: 345px;
-        left: 290px;
-    }
+   
     .add {
         margin-top: 225px;
         margin-bottom: 39px;
@@ -1675,6 +1684,17 @@ input[type="checkbox"] {
     }
     .formfooter{
         margin-top: 140px;
+    }
+   
+    figcaption p {
+        font-size: 12px!important;
+    }
+    span.icon-play {
+        top: 404px;
+        left: 263px;
+    }
+    .mainwrap {
+        width: 128rem!important;
     }
 }
 @media(max-width:1366px){
@@ -1704,8 +1724,11 @@ input[type="checkbox"] {
         padding-right: 150px;
     }
     span.icon-play {
-        top: 297px;
+        top: 360px;
         left: 255px;
+    }
+    figcaption p {
+        font-size: 12px!important;
     }
     h6 {
         font-size: 2em;
@@ -1764,7 +1787,8 @@ input[type="checkbox"] {
     }
     .slick-slider p{
         font-size: 10px;
-    }    
+    }   
+   
     .copyright {
         margin-left: 45px;
     }
@@ -1833,10 +1857,38 @@ input[type="checkbox"] {
     .btn-white {
         font-size: 15px;
     }
-    
+    .navbar-nav li {
+        font-size: 19px;
+        margin-right: 23px;
+    }
+    .navbar-nav {
+        margin-left: 7px;
+    }
+    form .profile {
+        margin-right: 4px;
+        margin-left: 40px;
+    }
+    .hello {
+        margin-top: 55px;
+        background: white;
+        padding: 20px;
+        position: relative;
+        width: 1354px;
+    }
+    .mainwrap {
+        width: 120rem!important;
+    }
 }
 @media(max-width:1280px){
-
+    .mainwrap {
+        width: 124rem!important;
+        margin-left: -62px !important;
+    }
+    .navbar-nav li {
+        font-size: 19px;
+        margin-right: 8px;
+    }
+   
     .add {
         margin-top: 213px;
         margin-bottom: 39px;
@@ -1855,7 +1907,7 @@ input[type="checkbox"] {
     .add2{
        
         margin-top: 200px;
-}
+    }
     .signfooter {
         margin-top: 160px;
     }
@@ -1912,11 +1964,91 @@ input[type="checkbox"] {
     .companyreg {
         height: 150%;
     }
-    span.icon-play {
-        top: 320px;
-        left: 243px;
+    figcaption p {
+        font-size: 11px!important;
     }
     .formfooter{
         margin-top: 85px;
+    }
+  
+    span.icon-play {
+        top: 385px;
+        left: 255px;
+    }
+    form .profile {
+        margin-right: 4px;
+        margin-left: 60px;
+    }
+    .navbar-nav {
+        margin-left: 1px;
+    }
+    .wintext {
+        padding-top: 0px;
+        margin-top: -59px;
+    }
+}
+@media (max-width:500px){
+    .supportimg img{
+        display: none;
+    }
+    .container-fluid {
+        padding-left: 14px;
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        width: 345px;
+    }
+    .tag{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .navbar-toggler{
+        margin-left: 240px;
+    }
+    .suptext {
+        margin-top: 67px;
+        margin-bottom: 24px;
+        margin-left: 81px;
+    }
+    .navbar-brand img {
+        width: 200px;
+        margin-top: 35px;
+    }
+    .navbar-toggler {
+        margin-left: 325px;
+    }
+    .about h1 {
+        margin-top: 130px;
+        margin-left: 65px;
+    }
+    .img404 img {
+        width: 70vw;
+        margin-top: 50px;
+        margin-left: 45px;
+    }
+}
+@media(max-width:375px){
+    .about h1{
+        margin-top: 95px;
+        margin-left: 55px;
+    }
+    .container-fluid {
+        padding-left: 0px;
+    }
+    .suptext {
+        margin-top: 67px;
+        margin-bottom: 24px;
+        margin-left: 108px;
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        width: 390px;
+    }
+    .navbar-toggler {
+        margin-left: 285px;
     }
 }
