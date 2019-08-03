@@ -1299,7 +1299,7 @@ input[type="checkbox"] {
         font-family: "Proxima Nova";
         font-weight: bold;
         color: white;
-        margin-top: 25px;
+        margin-top: 15px;
     }
     .store img {
         width: 179px;
@@ -1924,10 +1924,7 @@ input[type="checkbox"] {
     }
 }
 @media(max-width:1280px){
-    .mainwrap {
-        width: 124rem!important;
-        margin-left: -62px !important;
-    }
+
     .navbar-nav li {
         font-size: 19px;
         margin-right: 8px;
@@ -1984,7 +1981,7 @@ input[type="checkbox"] {
         padding-right: 50px;
     }
     .mainwrap {
-        width: 125rem!important;
+        width: 124rem!important;
         margin-left: -62px !important;
     }
       .navbar-brand img {
