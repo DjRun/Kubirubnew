@@ -1978,7 +1978,7 @@ input[type="checkbox"] {
         padding-right: 50px;
     }
     .mainwrap {
-        width: 43rem!important;
+        width: 125rem!important;
         margin-left: -62px !important;
     }
       .navbar-brand img {
@@ -2023,6 +2023,11 @@ input[type="checkbox"] {
     .wintext {
         padding-top: 0px;
         margin-top: -59px;
+    }
+    .different .nav-item {
+        font-size: 19px;
+        margin-right: 27px;
+        margin-left: -45px;
     }
 }
 @media (max-width:500px){
