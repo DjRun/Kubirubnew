@@ -1627,6 +1627,12 @@ input[type="checkbox"] {
     form .new{
         font-size: 12px;
     }
+    .different .nav-item{
+       
+            font-size: 19px;
+            margin-right: -3px;
+        
+    }
     .companyreg{
         height: 122%;
     }
